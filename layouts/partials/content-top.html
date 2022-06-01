@@ -1,0 +1,13 @@
+<div class="content-top">
+
+	<div id="blog-archives" class="category">
+		<ul class="cp_list">
+			{{ range $index,$value := first 7 (where $.Site.RegularPages.ByDate.Reverse "Section" "post") }}
+			<li>
+				{{ .Date.Local.Format "2006-01-02" }}<p><a href="{{.Permalink}}" class="lmove">{{.Title}}</a></p>
+			</li>
+			{{ end }}
+			<li><p style="text-align:center;"><a href="/archive/"><i class="fas fa-bars"></i></a></p></li>
+		</ul>
+	</div>
+</div>

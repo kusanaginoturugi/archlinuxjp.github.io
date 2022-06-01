@@ -1,0 +1,18 @@
+name = "archjp"
+license = "MIT"
+licenselink = "https://github.com/syui/hugo-theme-arch/tree/master/LICENSE"
+description = "hugo theme archjp"
+homepage = "https://syui.cf"
+tags = ["blog"]
+features = ["archlinux", "bootstrap", "talaria", "font-awesome"]
+min_version=0.15
+
+[author]
+name = "syui"
+homepage = "https://syui.cf"
+
+[original]
+author = "syui"
+homepage = "https://archlinuxjp.github.io"
+repo = "https://github.com/archlinuxjp/hugo-theme-arch"
+
